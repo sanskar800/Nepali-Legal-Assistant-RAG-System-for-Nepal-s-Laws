@@ -1,4 +1,4 @@
-# Nepali Law Bot 🏛️
+# Nepali Law Bot
 
 A RAG (Retrieval-Augmented Generation) based legal assistant for Nepali law, featuring hierarchical legal document retrieval, confidence scoring for hallucination detection, and structured output parsing.
 
@@ -50,15 +50,7 @@ graph TB
     P --> P1[Legal Citations]
     P --> P2[Source Documents]
     P --> P3[Confidence Score]
-    
-    P --> Q[User]
-    
-    style B fill:#4CAF50
-    style D fill:#2196F3
-    style I fill:#FF6B6B
-    style N fill:#FF9800
-    style O fill:#9C27B0
-    style P fill:#E91E63
+        P --> Q[User]
 ```
 
 ## Key Features
